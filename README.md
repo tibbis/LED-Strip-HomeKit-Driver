@@ -1,7 +1,7 @@
 ## RGB-LED-Strip-HomeKit-Driver
 ### An RGB LED strip driver that can be connected to a smart home (HomeKit) using Raspberry Pi and Arduino. 
 
-This is a complete guide going through all steps on how to build your own RGB LED Strip Driver that will be able to work together with HomeKit. This will allow you to control the LED-strip wirelessly through the use of Siri. You simply tell Siri to turn on your LED-strip to and set the color to e.g. red color. GIF:......
+This is a complete guide going through all steps on how to build your own RGB LED Strip Driver that will be able to work together with HomeKit. This will allow you to control the LED-strip wirelessly through the use of Siri. You simply tell Siri to turn on your LED-strip to and set the color to e.g. red color and through the combined work of the Raspberry Pi, Arduino Uno and a nicely crafted board, the strip will light up in the color of your choice. GIF:......
 
 ### Components used for this project
 - RGB-LED Strip (5m)
