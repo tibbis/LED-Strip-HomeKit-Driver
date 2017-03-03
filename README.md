@@ -30,7 +30,7 @@ If you are using a bredboard, this image can be helpful:
 The EAGLE Board file looks like this: (rgb-board.brd)
 
 <p align="center">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/PCB.png alt="PCB" width=500 height=400>
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/PCB.png alt="PCB" width=30% height=30%>
 </p>
 
 ##### Connecting RF24 Tranciever to Arduino
