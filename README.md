@@ -17,7 +17,7 @@ You may use any type of N-Channel MOSFET as long as it can handle the amount of 
 ## Design of the circuit board for the LED-strip
 Depending on your resources you can create your PCB as you want as long you follow the following schematic: (rgb-board.sch)
 <p align="center">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Schematic.png alt="schematic" >
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/Schematic.png alt="schematic" >
 </p>
 
 We will provide an EAGLE file so that it can be milled on a double-sided copper plate using a PCB milling machine, but if you lack the resources, we will also include illustrative pictures of how to do all of this using traditional breadboards.
@@ -30,14 +30,14 @@ If you are using a bredboard, this image can be helpful:
 The EAGLE Board file looks like this: (rgb-board.brd)
 
 <p align="center">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/PCB.png alt="PCB" width=50% height=50%>
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/PCB.png alt="PCB" width=50% height=50%>
 </p>
 
 ##### Connecting RF24 Tranciever to Arduino
 
 This image shows how to connect the wireless tranceiver to the Arduino pins.
 <p align="center">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/RF24-Arduino.png alt="PCB" width=30% height=30%>
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/RF24-Arduino.png alt="PCB" width=30% height=30%>
 </p>
 
 The following code is then implemented into the Arduino. (RGB_DRIVER.ino). Please note that the library RF24.h needs to be installed from e.g: https://github.com/maniacbug/RF24. The pins corresponds to the same pins as the pictures above and the same ID set to the parameter```const uint64_t pipe``` will be used later on the Raspberry Pi program.
