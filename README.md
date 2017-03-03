@@ -15,7 +15,7 @@ This is a complete guide going through all steps on how to build your own RGB LE
 You may use any type of N-Channel MOSFET as long as it can handle the amount of current that your LED-strip requires.
 
 ## Design of the circuit board for the LED-strip
-Depending on your resources you can create your PCB as you want as long you follow the following schematic:
+Depending on your resources you can create your PCB as you want as long you follow the following schematic: (rgb-board.sch)
 <p align="center">
   <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Schematic.png alt="schematic" >
 </p>
@@ -27,7 +27,7 @@ If you are using a bredboard, this image can be helpful:
   <img src=https://cdn-learn.adafruit.com/assets/assets/000/002/693/original/led_strips_ledstripbjt.gif?1448059603 alt="breadboard" >
 </p>
 
-The EAGLE Board file looks like this:
+The EAGLE Board file looks like this: (rgb-board.brd)
 
 <p align="center">
   <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/PCB.png alt="PCB" width=500 height=400>
@@ -35,10 +35,13 @@ The EAGLE Board file looks like this:
 
 ##### Connecting RF24 Tranciever to Arduino
 
-This shows how to connect the wireless tranceiver to the Arduino pins.
+This image shows how to connect the wireless tranceiver to the Arduino pins.
 <p align="center">
   <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/RF24-Arduino.png alt="PCB" width=400 height=400>
 </p>
+
+The following code is then implemented in the Arduino. (RGB_DRIVER.ino)
+
 
 
 
