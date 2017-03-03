@@ -28,7 +28,7 @@ We will provide an EAGLE file so that it can be milled on a double-sided copper 
 
 If you are using a bredboard, this image can be helpful:
 <p align="center">
-  <img src=https://cdn-learn.adafruit.com/assets/assets/000/002/693/original/led_strips_ledstripbjt.gif?1448059603 alt="alt text" width=500 height=400>
+  <img src=https://cdn-learn.adafruit.com/assets/assets/000/002/693/original/led_strips_ledstripbjt.gif?1448059603 alt="breadboard" >
 </p>
 
 
