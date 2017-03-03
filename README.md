@@ -24,7 +24,7 @@ We will provide an EAGLE file so that it can be milled on a double-sided copper 
 
 If you are using a bredboard, this image can be helpful:
 <p align="center">
-  <img src=https://cdn-learn.adafruit.com/assets/assets/000/002/693/original/led_strips_ledstripbjt.gif?1448059603 alt="breadboard" >
+  <img src=https://cdn-learn.adafruit.com/assets/assets/000/002/693/original/led_strips_ledstripbjt.gif?1448059603 alt="breadboard" width=50% height=50% >
 </p>
 
 The EAGLE Board file looks like this: (rgb-board.brd)
@@ -41,6 +41,71 @@ This image shows how to connect the wireless tranceiver to the Arduino pins.
 </p>
 
 The following code is then implemented in the Arduino. (RGB_DRIVER.ino)
+```Arduino
+#include "nRF24L01.h"
+#include "RF24.h"
+#include "RF24_config.h"
+#include <SPI.h>
+
+/////////////////////////////-RF24-////////////////////////////////////////
+RF24 radio(9, 10); //RF24 pins
+const uint64_t pipe = 0xF0F0F0F0E1LL; //ID
+unsigned long RGB = 0;
+/////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////-RGB-/////////////////////////////////////////
+#define REDPIN 5
+#define GREENPIN 6
+#define BLUEPIN 3
+#define FADESPEED 5     // make this higher to slow down fading
+int r, g, b;
+int blueMask = 0xFF0000, greenMask = 0xFF00, redMask = 0xFF; //decoding masks
+//////////////////////////////////////////////////////////////////////////
+
+
+void setup(void) {
+
+  //Radio module setup
+  radio.begin();
+  radio.openReadingPipe(1, pipe);
+  radio.startListening();
+
+  //RGB pin setup
+  pinMode(REDPIN, OUTPUT);
+  pinMode(GREENPIN, OUTPUT);
+  pinMode(BLUEPIN, OUTPUT);
+
+  //serial Setup
+  Serial.begin(9600);
+  Serial.println("Started Listening...");
+}
+
+void loop(void)
+{
+
+  if (radio.available()) { //signal recieved
+
+    if ( !radio.read(&RGB, sizeof(unsigned long)) ) {
+      Serial.println("ACK not received by client."); 
+    }
+    //Decode RGB value
+    r = (RGB & 0xFF);
+    g = ((RGB & 0xFF00) >> 8);
+    b = ((RGB & 0xFF0000) >> 16);
+
+    //Serial Print
+    Serial.print("Recieved RGB-value: R= "); Serial.print(r); Serial.print(", G= ");
+    Serial.print(g); Serial.print(", B= "); Serial.println(b);
+
+  }
+
+  //set RGB pins
+  analogWrite(REDPIN, r);
+  analogWrite(GREENPIN, g);
+  analogWrite(BLUEPIN, b);
+
+}```
+
 
 
 
