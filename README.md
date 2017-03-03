@@ -8,7 +8,7 @@ This is a complete guide going through all steps on how to build your own RGB LE
 - Raspberry Pi 3 Model B+
 - Arduino UNO
 - 2x NRF24L01+ Radio Tranciever
-- 3x N-Channel MOSFETS transistors (IRLB8721, BUZ100 or similar)
+- 3x N-Channel MOSFET transistors (IRLB8721, BUZ100 or similar)
 - 3x 160 Ohm Resistors
 - Circuit Board or breadboard
 
