@@ -12,10 +12,10 @@ This is a complete guide going through all steps on how to build your own RGB LE
 - 3x 160 Ohm Resistors
 - Circuit Board or breadboard
 
-You may use any type of MOSFET as long as it can handle the amount of current that your LED strip requires.
+You may use any type of N-Channel MOSFET as long as it can handle the amount of current that your LED strip requires.
 
 ## Creating circuit board for LED strip
-Depending on your resources you can create your PCB as you want as long you follow the following schematic.
+Depending on your resources you can create your PCB as you want as long you follow the following schematic:
 ![Schematics]({{site.baseurl}}//schematics-image.png)
 
-We will provide an EAGLE file so that it can be milled on a double-sided copper plate using a PCB milling machine.
+We will provide an EAGLE file so that it can be milled on a double-sided copper plate using a PCB milling machine, but if you lack the resources, we will also include illustrative pictures of how to do all of this using traditional breadboards.
