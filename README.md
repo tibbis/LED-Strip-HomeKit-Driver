@@ -25,3 +25,5 @@ We will provide an EAGLE file so that it can be milled on a double-sided copper 
 <p align="center">
   <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/PCB.png alt="alt text" width=500 height=400>
 </p>
+If you are using a bredboard, this image can be helpful:
+![]({{site.baseurl}}/https://cdn-learn.adafruit.com/assets/assets/000/002/693/original/led_strips_ledstripbjt.gif?1448059603)
