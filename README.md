@@ -40,7 +40,8 @@ This image shows how to connect the wireless tranceiver to the Arduino pins.
   <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/RF24-Arduino.png alt="PCB" width=30% height=30%>
 </p>
 
-The following code is then implemented into the Arduino. (RGB_DRIVER.ino). Please note that the library RF24.h needs to be installed from e.g: https://github.com/maniacbug/RF24
+The following code is then implemented into the Arduino. (RGB_DRIVER.ino). Please note that the library RF24.h needs to be installed from e.g: https://github.com/maniacbug/RF24. The pins corresponds to the same pins as the pictures above and the same ID set to the parameter```const uint64_t pipe``` will be used later on the Raspberry Pi program.
+
 ```Arduino
 #include "nRF24L01.h"
 #include "RF24.h"
