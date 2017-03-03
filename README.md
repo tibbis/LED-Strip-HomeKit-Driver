@@ -40,7 +40,7 @@ This image shows how to connect the wireless tranceiver to the Arduino pins.
   <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/RF24-Arduino.png alt="PCB" width=30% height=30%>
 </p>
 
-The following code is then implemented in the Arduino. (RGB_DRIVER.ino)
+The following code is then implemented into the Arduino. (RGB_DRIVER.ino). Please note that the library RF24.h need to be installed from i.g: https://github.com/maniacbug/RF24
 ```Arduino
 #include "nRF24L01.h"
 #include "RF24.h"
