@@ -17,13 +17,18 @@ You may use any type of N-Channel MOSFET as long as it can handle the amount of 
 ## Design of the circuit board for the LED-strip
 Depending on your resources you can create your PCB as you want as long you follow the following schematic:
 <p align="center">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Schematic.png alt="alt text" >
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Schematic.png alt="schematic" >
 </p>
 
 We will provide an EAGLE file so that it can be milled on a double-sided copper plate using a PCB milling machine, but if you lack the resources, we will also include illustrative pictures of how to do all of this using traditional breadboards. The EAGLE Board file looks like this:
 
 <p align="center">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/PCB.png alt="alt text" width=500 height=400>
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/PCB.png alt="PCB" width=500 height=400>
 </p>
+
 If you are using a bredboard, this image can be helpful:
-![]({{site.baseurl}}/https://cdn-learn.adafruit.com/assets/assets/000/002/693/original/led_strips_ledstripbjt.gif?1448059603)
+<p align="center">
+  <img src=https://cdn-learn.adafruit.com/assets/assets/000/002/693/original/led_strips_ledstripbjt.gif?1448059603 alt="alt text" width=500 height=400>
+</p>
+
+
