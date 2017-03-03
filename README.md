@@ -37,7 +37,7 @@ The EAGLE Board file looks like this:
 
 This shows how to connect the wireless tranceiver to the Arduino pins.
 <p align="center">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/RF24-Arduino.png alt="PCB" width=500 height=400>
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/RF24-Arduino.png alt="PCB" width=500>
 </p>
 
 
