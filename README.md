@@ -10,7 +10,7 @@ _"Hey Siri! Put my LED Strip to red."_
 - RGB-LED Strip (5m)
 - Raspberry Pi 3 Model B+
 - Arduino UNO
-- 2x NRF24L01+ Radio Tranciever
+- 2x NRF24L01+ Radio Trancievers
 - 3x N-Channel MOSFET transistors (IRLB8721, BUZ100 or similar)
 - 3x 160 Ohm Resistors
 - Circuit Board or breadboard
