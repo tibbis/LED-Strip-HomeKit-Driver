@@ -36,7 +36,7 @@ The left you see the EAGLE Board file design (rgb-board.brd) and to the right th
   <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/PCB.png alt="PCB1" width=50% height=50%>
 </p>
 <p align="right">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/PCB-picture.png alt="PCB2" width=20% height=20%>
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/PCB-picture.jpg alt="PCB2" width=50% height=50%>
 </p>
 
 #### Connecting RF24 Tranciever to Arduino
