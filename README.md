@@ -3,8 +3,7 @@
 
 This is a complete DIY guide going through all steps on how to build your own RGB LED Strip Driver that will be able to work together with HomeKit. This will allow you to control the LED-strip wirelessly through the use of Siri. You simply tell Siri to turn on your LED-strip and set the color to e.g. red and through the combined work of the Raspberry Pi, Arduino Uno and a nicely crafted board, the strip will light up in the color of your choice. 
 !<p align="center">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/demo.gif alt="schematic" 
-  rotation=90>
+  ![](/Pictures/demo.gif)
 </p>
 
 ### Components used for this project
