@@ -35,7 +35,7 @@ The EAGLE Board file looks like this: (rgb-board.brd)
   <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/PCB.png alt="PCB" width=50% height=50%>
 </p>
 
-##### Connecting RF24 Tranciever to Arduino
+#### Connecting RF24 Tranciever to Arduino
 
 This image shows how to connect the wireless tranceiver to the Arduino pins.
 <p align="center">
@@ -99,8 +99,9 @@ void loop(void)
 }
 ```
 
+### Design and create your own box
+We provide you 3D CAD files for a 3D-printable box that fits an Arduino UNO and our PCB that we used. Depending on your circuit board dimensions you may need to create your own box. It needs 3 openings, one for the Arduino USB and DC inputs, and one RGB-LED strip output port (in our case 4 pins). The box should contain the Arduino, circuit board and RF24 tranciever with all its wires.
 
 
-
-
+### [This document is being updated continuously...]
 
