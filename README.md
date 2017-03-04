@@ -32,11 +32,9 @@ If you are using a bredboard, this image can be helpful:
 
 The left you see the EAGLE Board file design (rgb-board.brd) and to the right the result with the soldered transisotrs and resistors:
 
-<p align="left">
+<p align="center">
   <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/PCB.png alt="PCB1" width=50% height=50%>
-</p>
-<p align="right">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/PCB-picture.png alt="PCB2" width=45% height=45%>
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/PCB-picture.png alt="PCB2" width=49% height=49%>
 </p>
 
 #### Connecting RF24 Tranciever to Arduino
