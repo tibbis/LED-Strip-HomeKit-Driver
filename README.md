@@ -11,7 +11,7 @@ _"Hey Siri, put my LED Strip to red."_
 ### Overview
 This illustrates briefly how the complete system works. Basically, by giving Siri or HomeKit on an Apple device a command, the command will be passed to a homebridge server running on the Raspberry Pi. This command will then be passed to a local node.js server that will execute a program which in-turn will send color data wirelessly to an Arduino that is controlling a LED strip.
 <p align="center">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/mindmap.png alt="mindmap" >
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/MindMap.png alt="mindmap" >
 </p>
 #### Components used for this project
 - RGB-LED Strip (5m with 4 pins)
@@ -163,7 +163,8 @@ void changeColor(int[3] colors, int[3]prevColors){
 We provide you 3D CAD files for a 3D-printable box that fits an Arduino UNO and our PCB that we used. Depending on your circuit board dimensions you may need to create your own box. It needs 3 openings, one for the Arduino USB and DC inputs, and one RGB-LED strip output port (in our case 4 pins). The box should contain the Arduino, circuit board and RF24 transceiver with all its wires.
 
 <p align="center">
-  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/xxx.png alt="3D-box" width=30% height=30%>
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/BoxPicture1.png alt="cad1" width=50% height=50%>
+  <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/BoxPicture2.png alt="cad2" width=49% height=49%>
 </p>
 
 ### Connecting RF24-transceiver to Raspberry Pi 3 B+
@@ -221,9 +222,9 @@ if (!ok){
 ## Setup of homebridge and node.js servers
 Now that all hardware is connected and its corresponding code implemented, the last and a bit tricky part of this guide is left.
 #### Install Homebridge
-First you will need to install homebridge on your Raspberry Pi by following this guide: link:.
+First you will need to install homebridge on your Raspberry Pi by following this guide: link: https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi.
 
-After you have managed to successfully install homebridge you will need to create a background service for it using serviced. Look at this guide:link.
+After you have managed to successfully install homebridge you will need to create a background service for it using serviced. Look at this guide: https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi#running-homebridge-on-bootup-systemd.
 
 By doing that it will automatically start on boot and as well after eventual crashes.
 #### Homebridge Plugins and config.js
@@ -310,6 +311,5 @@ server.listen(8080);
 
 console.log('Starting server. Listening on localhost:8080');
 ```
-You can then follow this guide to make it run in the bacjground: link.
 
 ### [This document is being updated continuously...]
