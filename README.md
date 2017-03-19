@@ -12,7 +12,7 @@ _"Hey Siri, put my LED Strip to red."_
 This illustrates briefly how the complete system works. Basically, by giving Siri or HomeKit on an Apple device a command, the command will be passed to a homebridge server running on the Raspberry Pi. This command will then be passed to a local node.js server that will execute a program which in-turn will send color data wirelessly to an Arduino that is controlling a LED strip.
 <p align="center">
   <img src=https://raw.githubusercontent.com/GitTibbe/LED-Strip-HomeKit-Driver/master/Pictures/MindMap.png alt="mindmap" 
-  width=30% height=30%>
+  width=40% height=40%>
   
 </p>
 
