@@ -1,4 +1,4 @@
-background# Siri Controlled RGB LED-Strip Project
+# Siri Controlled RGB LED-Strip Project
 #### By Thibault and Ramtin
 ### DIY RGB LED strip driver that can be connected to a smart home (HomeKit) using Raspberry Pi and Arduino.
 
